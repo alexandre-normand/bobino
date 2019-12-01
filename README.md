@@ -1,3 +1,5 @@
+[![Build](https://github.com/alexandre-normand/bobino/workflows/Go/badge.svg)](https://github.com/alexandre-normand/bobino/actions)
+
 # Bobino
 
 ![bobino](https://m.media-amazon.com/images/M/MV5BZDMyOGQ2ZGQtYzg3Yy00ZWU1LThmOTItZTI0Y2EwMWYzNzdmXkEyXkFqcGdeQXVyNTA1NDY3NzY@._V1_.jpg)
