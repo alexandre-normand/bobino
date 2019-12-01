@@ -67,6 +67,25 @@ func AskForInput(question string) (answer string) {
 	return answer
 }
 
+// AskForBool prompts with a question expecting a yes/no answer. The
+// function returns only when a valid string value is entered
+//
+//   answer := bobino.AskForBool("Do You Consider Yourself Old?")
+//   fmt.Printf("%t", answer)
+func AskForBool(question string) (yes bool) {
+	prompt := promptui.Select{
+		Label: question,
+		Items: []string{"yes", "no"},
+	}
+
+	_, answer, _ := prompt.Run()
+	if answer == "yes" {
+		return true
+	} else {
+		return false
+	}
+}
+
 // AskWithChoice prompts with a question expecting an answer from a list of options. The
 // function returns only when a valid option is selected
 //
